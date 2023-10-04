@@ -1,0 +1,10 @@
+CREATE TABLE Clientes (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    Nome VARCHAR(50) NOT NULL,
+    Email VARCHAR(50) UNIQUE NOT NULL,
+    Altura DECIMAL(1, 2),
+    Peso DECIMAL(2, 2),
+    Sexo CHAR(1),
+    DataNascimento DATE
+);
+CREATE TABLE
