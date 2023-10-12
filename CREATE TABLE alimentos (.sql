@@ -10,4 +10,4 @@ CREATE TABLE alimentos (
     gordura DECIMAL(5),
     PRIMARY KEY ('ID')
 );
-CREATE TABLE 
+--CREATE TABLE 
